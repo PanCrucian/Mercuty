@@ -6,7 +6,7 @@ public class ObstacleController : MonoBehaviour {
     public Obstacle[] obstacles;
     public bool allowSpawn = false;
     public float spawnDelay = 1f;
-    public float lastAllowTime;
+    float lastAllowTime;
 
     public static ObstacleController Instance
     {
